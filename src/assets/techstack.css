@@ -1,0 +1,13 @@
+css .hexagon {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  width: 100px;
+  height: 115px;
+  background: #2a2a2a;
+}
+
+@media (min-width: 640px) {
+  .hexagon {
+    width: 120px;
+    height: 138px;
+  }
+}
