@@ -140,7 +140,7 @@ const Portfolio = () => {
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-t from-[#1a1a1a] to-transparent" />
               {project.image ? (
                 <img
-                  src={project.image}
+                  src={project.image.startsWith("/") ? import.meta.env.BASE_URL + project.image.slice(1) : project.image}
                   alt={project.title}
                   className="w-full h-full object-cover"
                 />

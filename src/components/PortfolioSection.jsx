@@ -123,7 +123,7 @@ const PortfolioSection = () => {
                   </motion.div>
                   {project.image && (
                     <img
-                      src={project.image}
+                      src={project.image.startsWith("/") ? import.meta.env.BASE_URL + project.image.slice(1) : project.image}
                       alt={project.title}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                     />
@@ -153,7 +153,7 @@ const PortfolioSection = () => {
                             {project.images.slice(0, 3).map((src, i) => (
                               <img
                                 key={i}
-                                src={src}
+                                src={src.startsWith("/") ? import.meta.env.BASE_URL + src.slice(1) : src}
                                 alt={`${project.title} image ${i + 1}`}
                                 className="w-full h-full object-cover"
                                 style={{ display: i === 0 ? "block" : "none" }}
