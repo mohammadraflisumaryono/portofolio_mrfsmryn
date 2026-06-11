@@ -72,7 +72,7 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                 {images.length > 0 ? (
                   <motion.img
                     key={slide}
-                    src={images[slide]}
+                    src={images[slide].startsWith("/") ? import.meta.env.BASE_URL + images[slide].slice(1) : images[slide]}
                     alt={`${project.title} slide ${slide + 1}`}
                     className="w-full h-full object-cover"
                     initial={{ opacity: 0 }}

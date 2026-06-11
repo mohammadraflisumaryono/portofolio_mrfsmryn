@@ -11,7 +11,7 @@ export default function App() {
     <main>
       {/* Gradient Image */}
       <img
-        src="/gradient.png"
+        src={import.meta.env.BASE_URL + "gradient.png"}
         alt="Gradient Background"
         className="absolute top-0 right-0 opacity-60 -z-10"
       />
