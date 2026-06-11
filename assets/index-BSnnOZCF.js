@@ -50171,7 +50171,7 @@ function s3() {
   if (r3) return;
   if (mx) return mx;
   async function n() {
-    await __vitePreload(() => import("./howler-CM4u7vD9.js").then((n10) => n10.h), true ? [] : void 0), i3(window !== void 0 ? window : global), r3 = true;
+    await __vitePreload(() => import("./howler-CSDoKlMW.js").then((n10) => n10.h), true ? [] : void 0), i3(window !== void 0 ? window : global), r3 = true;
   }
   return mx = n(), mx;
 }
@@ -80413,6 +80413,8 @@ const projects = [
   {
     "id": 2,
     "title": "Kalijagas Business Platform",
+    "role": "Full-Stack Developer",
+    "company": "PT Kalimantan Jawa Gas",
     "period": "Mar 2025 - Jun 2025",
     "type": "Part-time / Freelance",
     "status": "Completed",
