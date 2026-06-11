@@ -50171,7 +50171,7 @@ function s3() {
   if (r3) return;
   if (mx) return mx;
   async function n() {
-    await __vitePreload(() => import("./howler-DwizEQP8.js").then((n10) => n10.h), true ? [] : void 0), i3(window !== void 0 ? window : global), r3 = true;
+    await __vitePreload(() => import("./howler-CM4u7vD9.js").then((n10) => n10.h), true ? [] : void 0), i3(window !== void 0 ? window : global), r3 = true;
   }
   return mx = n(), mx;
 }
@@ -82136,19 +82136,12 @@ function App() {
     ),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-0 w-[40rem] absolute top-[20%] right-[-5%] shadow-[0_0_900px_20px_#e99b63] -rotate-[30deg] -z-10" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Header, {}),
-    console.log("1. App.jsx loaded"),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Hero, {}),
-    console.log("2. Hero component rendered"),
     /* @__PURE__ */ jsxRuntimeExports.jsx(AboutSection, {}),
-    console.log("3. AboutSection component rendered"),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Portfolio, {}),
-    console.log("4. Portfolio component rendered"),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Achievements, {}),
-    console.log("5. Achievements component rendered"),
     /* @__PURE__ */ jsxRuntimeExports.jsx(TechStack, {}),
-    console.log("6. TechStackSection component rendered"),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(ContactMe, {}),
-    console.log("7. ContactMe component rendered")
+    /* @__PURE__ */ jsxRuntimeExports.jsx(ContactMe, {})
   ] });
 }
 clientExports.createRoot(document.getElementById("root")).render(
