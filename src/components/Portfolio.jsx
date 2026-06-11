@@ -5,7 +5,6 @@ import { projects } from "../portfolioData";
 import ProjectModal from "./ProjectModal";
 
 const containerVariants = {
-
   hidden: {},
   visible: {
     transition: {

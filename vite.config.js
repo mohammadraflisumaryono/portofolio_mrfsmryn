@@ -6,4 +6,7 @@ export default defineConfig({
   plugins: [react()],
   // add
   base: "/portofolio_mrfsmryn/",
+  build: {
+    minify: false
+  }
 })
