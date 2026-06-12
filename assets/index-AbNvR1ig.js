@@ -19859,7 +19859,7 @@ const socialLinks = {
     bio: "Full Stack Developer with expertise in building AI automation, computer vision, and data-driven solutions. Experienced in developing scalable web applications, designing efficient back-end systems, and creating responsive front-end interfaces while integrating machine learning and intelligent automation into real-world products. Passionate about leveraging technology to solve complex problems and deliver impactful digital solutions.",
     profileImage: "/portofolio_mrfsmryn/assets/personal/profile_pic.JPG",
     // resume: "/assets/files/resume.pdf",
-    cv: "/portofolio_mrfsmryn/assets/personal/CV-Mohammad Rafli Sumaryono eng TRIM.pdf"
+    cv: "/portofolio_mrfsmryn/assets/personal/CV-Mohammad Rafli Sumaryono.pdf"
   },
   social: [
     {
@@ -50171,7 +50171,7 @@ function s3() {
   if (r3) return;
   if (mx) return mx;
   async function n() {
-    await __vitePreload(() => import("./howler-CSDoKlMW.js").then((n10) => n10.h), true ? [] : void 0), i3(window !== void 0 ? window : global), r3 = true;
+    await __vitePreload(() => import("./howler-D18OyV89.js").then((n10) => n10.h), true ? [] : void 0), i3(window !== void 0 ? window : global), r3 = true;
   }
   return mx = n(), mx;
 }
