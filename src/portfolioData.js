@@ -42,7 +42,8 @@ export const projects = [
   {
     "id": 2,
     "title": "Kalijagas Business Platform",
-
+    "role": "Full-Stack Developer",
+    "company": "PT Kalimantan Jawa Gas",
     "period": "Mar 2025 - Jun 2025",
     "type": "Part-time / Freelance",
     "status": "Completed",

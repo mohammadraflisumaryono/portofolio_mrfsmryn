@@ -20,7 +20,7 @@ export const socialLinks = {
     bio: "Full Stack Developer with expertise in building AI automation, computer vision, and data-driven solutions. Experienced in developing scalable web applications, designing efficient back-end systems, and creating responsive front-end interfaces while integrating machine learning and intelligent automation into real-world products. Passionate about leveraging technology to solve complex problems and deliver impactful digital solutions.",
     profileImage: import.meta.env.BASE_URL + "assets/personal/profile_pic.JPG",
     // resume: "/assets/files/resume.pdf",
-    cv: import.meta.env.BASE_URL + "assets/personal/CV-Mohammad Rafli Sumaryono eng TRIM.pdf",
+    cv: import.meta.env.BASE_URL + "assets/personal/CV-Mohammad Rafli Sumaryono.pdf",
   }, 
   social: [
     {
